@@ -1,0 +1,52 @@
+.lily-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.lily-header {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.lily-title {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #f9a8d4;
+  margin: 0 0 0.35rem 0;
+  text-shadow: 0 4px 16px rgba(244, 114, 182, 0.4);
+}
+
+.lily-subtitle {
+  font-size: 0.875rem;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.lily-canvas-container {
+  position: relative;
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: none;
+  background-color: #000000;
+  aspect-ratio: 9 / 16;
+  height: 75vh;
+  max-width: 100%;
+}
+
+.lily-canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
